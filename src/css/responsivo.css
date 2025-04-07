@@ -1,0 +1,105 @@
+@media (max-width: 768px) { /* Estilos para telas menores que 768px */
+    .conteudo .nome {
+        width: fit-content;
+        background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo com opacidade de 0% */
+    }
+    nome.Luffy { /* Estilo para o elemento com a classe "Luffy" dentro do elemento com a classe "nome" */
+        background-color: rgba(255, 0, 0, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    nome.Zoro { /* Estilo para o elemento com a classe "Zoro" dentro do elemento com a classe "nome" */
+        background-color: rgba(0, 255, 0, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    nome.Nami { /* Estilo para o elemento com a classe "Nami" dentro do elemento com a classe "nome" */
+        background-color: rgba(255, 174, 0, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    nome.Sanji { /* Estilo para o elemento com a classe "Sanji" dentro do elemento com a classe "nome" */
+        background-color: rgba(0, 26, 255, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    nome.Ussop { /* Estilo para o elemento com a classe "Ussop" dentro do elemento com a classe "nome" */
+        background-color: rgba(200, 255, 71, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    nome.Chopper { /* Estilo para o elemento com a classe "Chopper" dentro do elemento com a classe "nome" */
+        background-color: rgba(255, 71, 212, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    nome.Nico { /* Estilo para o elemento com a classe "Nico" dentro do elemento com a classe "nome" */
+        background-color: rgba(177, 0, 253, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    nome.Brook { /* Estilo para o elemento com a classe "Brook" dentro do elemento com a classe "nome" */
+        background-color: rgba(252, 252, 252, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    nome.Franky { /* Estilo para o elemento com a classe "Franky" dentro do elemento com a classe "nome" */
+        background-color: rgba(71, 255, 197, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    nome  .Jinbe { /* Estilo para o elemento com a classe "Jinbe" dentro do elemento com a classe "nome" */
+        background-color: rgba(0, 166, 255, 0.5); /* Cor de fundo com opacidade de 50% */
+    }
+    
+
+    main::after { /* Estilo para o pseudo-elemento "after" do elemento "main" */
+        background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 70%) no-repeat;
+        width: 100vw; /* Largura de 100% da viewport (largura da tela) */
+    }
+
+    main .personagens .imagem{
+        height: 85%; 
+        object-position: center; /* Centraliza a imagem dentro do elemento */
+    }
+
+    .conteudo {
+        justify-content: flex-end; /* Alinha os itens ao final do elemento pai */
+        left: 0; /* Alinha à esquerda do elemento pai */
+        top: -20%; /* Alinha ao topo do elemento pai com um deslocamento de -20% */
+        max-width: 100vw; /* Largura máxima de 100% da viewport (largura da tela) */
+        padding:30px; /* Adiciona um preenchimento de 30 pixels em todos os lados */
+    }
+
+    .conteudo .nome {
+        font-size: 36px; /* Tamanho da fonte de 100% do tamanho padrão */
+        margin-bottom: 15px; /* Margem inferior de 10 pixels */
+    }
+
+    .conteudo .descricao {
+        max-width: 500px; /* Largura máxima de 500 pixels */;
+        font-size: 24px; /* Tamanho da fonte de 90% do tamanho padrão */
+    }
+
+    .botoes {
+        flex-direction: row; /* Alinha os itens em linha */
+        align-items: flex-end; /* Alinha os itens ao final do elemento pai */
+        width: 100%; /* Largura de 100% do elemento pai */
+        padding: 30px; /* Adiciona um preenchimento de 30 pixels em todos os lados */
+        overflow-x: auto; /* Permite rolagem horizontal se o conteúdo transbordar */
+    }
+
+    .botoes .botao {
+        width: 70px; 
+        height: 70px;
+    }
+
+    .botoes .botao img {
+        max-width: 70px;
+    }
+
+    @media (max-width: 425px) { /* Estilos para telas menores que 480px */
+        main .personagem .imagem {
+            height: auto;
+        }
+
+        .conteudo {
+            top: -20%; /* Alinha ao topo do elemento pai com um deslocamento de -20% */
+        }
+
+        .botoes {
+            padding: 20px;
+            top: -10%
+        }
+
+        .botoes .botao {
+            width: 50px; 
+            height: 50px;
+        }
+        .botoes .botao img {
+            max-width: 50px;
+        }
+    }
+} 

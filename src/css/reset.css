@@ -1,0 +1,13 @@
+/* este arquivo é um reset de CSS, ele remove as margens e os paddings padrão dos elementos HTML */
+/* e define uma fonte padrão para o corpo do documento. */
+
+* { /*seletor universal, aplica a regra a todos os elementos*/
+    margin: 0; /*remove a margem padrão*/
+    padding: 0; /*remove o padding padrão (padding é o espaço interno do elemento)*/
+    box-sizing: border-box; /*inclui o padding e a borda no tamanho total do elemento*/
+}
+
+ul { /*seletor de lista não ordenada*/
+    list-style: none; /*remove os marcadores padrão das listas*/
+    
+}
